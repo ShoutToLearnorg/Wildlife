@@ -1,0 +1,64 @@
+
+ul {
+  background-color: #F7F9FC;
+  margin-top: 25px;
+  padding: 30px 55px;
+  border-radius: 8px;
+}
+.first-section {
+  background-color: white;
+}
+.section {
+  padding: 60px 0 0px;
+}
+.first-section ul {
+  background-color: #F7F9FC;
+  border-radius: 8px;
+  margin-top: 25px;
+  padding: 30px 55px;
+}
+
+.first-section li {
+  margin-bottom: 8px;
+}
+.first-section img {
+  margin-bottom: 35px;
+}
+
+@media (min-width: 768px)
+{
+  .first-section img {
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .first-section img {
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 576px) {
+  h1 {
+    font-size: 48px;
+  }
+}
+@media (min-width: 576px) {
+  .section {
+    padding: 70px 0;
+  }
+}
+header {
+  background-color: #F0F8FF;
+  background-image: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("../img/_methode_times_prod_web_bin_6995b9ce-f0ec-11e9-ba44-aad5db5172e7.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 140px 0 100px;
+}
+
+@media (min-width: 576px) {
+  header {
+    padding: 260px 0;
+    margin-bottom: 40px;
+  }
+}
